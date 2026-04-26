@@ -106,14 +106,14 @@ if st.button("Start Duel"):
 
     with col1:
         st.subheader(p1.name)
-        st.write(f"Health: {p1.max_health}")   # ✅ ADĂUGAT
+        st.write(f"Health: {p1.max_health}")   
         st.write(f"Attack: {p1.attack_power}")
         st.write(f"Defense: {p1.defense_power}")
         st.write(f"Ability: {p1.ability.__class__.__name__}")
 
     with col2:
         st.subheader(p2.name)
-        st.write(f"Health: {p2.max_health}")   # ✅ ADĂUGAT
+        st.write(f"Health: {p2.max_health}")   
         st.write(f"Attack: {p2.attack_power}")
         st.write(f"Defense: {p2.defense_power}")
         st.write(f"Ability: {p2.ability.__class__.__name__}")
